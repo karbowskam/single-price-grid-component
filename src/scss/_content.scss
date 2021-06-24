@@ -1,0 +1,41 @@
+.body {
+  background: $background;
+  min-width: 375px;
+}
+
+.grid {
+  width: 325px;
+  margin: 10% auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 270px 235px 250px;
+}
+
+.box {
+  padding: 10% 8%;
+}
+
+.first-box {
+  background: #fff;
+
+  &__header {
+    margin: 0;
+    color: $cyan-font;
+    font-family: "second font", Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+  }
+
+  &__paragraph-yellow {
+    margin: 20px auto;
+    color: $yellow-font;
+    font-size: 17px;
+  }
+
+  &__paragraph-gray {
+    font-family: "second-font", Arial, Helvetica, sans-serif;
+    color: $grayish-blue-font;
+    line-height: 1.8;
+    font-size: 14px;
+  }
+}
