@@ -64,4 +64,15 @@
     }
   }
 
+  &__button {
+    margin: 6% auto;
+    color: #fff;
+    background: $yellow-button;
+    text-align: center;
+    width: 270px;
+    height: 45px;
+    border: none;
+    font-size: 14px;
+    font-family: "second-font", Arial, Helvetica, sans-serif;
+  }
 }
