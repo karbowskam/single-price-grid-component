@@ -39,3 +39,40 @@
     font-size: 14px;
   }
 }
+
+.second-box {
+  background: $cyan-box;
+
+  &__header {
+    margin: 0;
+    color: #fff;
+    font-family: "second-font", Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+  }
+
+  &__paragraph {
+    color: #fff;
+
+    &--bold {
+      font-size: 28px;
+      font-family: "main-font", Arial, Helvetica, sans-serif;
+    }
+
+    &__gray {
+      text-align: center;
+    }
+  }
+
+  &__button {
+    margin: 6% auto;
+    color: #fff;
+    background: $yellow-button;
+    text-align: center;
+    width: 270px;
+    height: 45px;
+    border: none;
+    font-size: 14px;
+    font-family: "second-font", Arial, Helvetica, sans-serif;
+  }
+}
