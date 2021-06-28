@@ -8,10 +8,6 @@
   display: grid;
   grid-template-columns: minmax(0, 325px);
   grid-template-rows: 270px 235px 250px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .box {
