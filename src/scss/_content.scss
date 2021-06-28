@@ -9,6 +9,11 @@
   display: grid;
   grid-template-columns: minmax(0, 325px);
   grid-template-rows: 270px 235px 250px;
+  -webkit-box-shadow: 4px 6px 9px -3px rgba(84, 84, 84, 0.83);
+  box-shadow: 4px 6px 9px -3px rgba(84, 84, 84, 0.83);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
 }
 
 .box {
@@ -82,12 +87,12 @@
     font-size: 16px;
     font-family: "second-font", Arial, Helvetica, sans-serif;
     border-radius: 5px;
+    -webkit-box-shadow: 4px 6px 9px -3px rgba(84, 84, 84, 0.83);
+    box-shadow: 4px 6px 9px -3px rgba(84, 84, 84, 0.83);
   }
 }
 
 .third-box {
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
   background: $light-cyan-box;
 
   &__header {
