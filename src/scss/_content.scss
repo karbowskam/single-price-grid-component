@@ -72,7 +72,23 @@
     width: 270px;
     height: 45px;
     border: none;
-    font-size: 14px;
+.third-box {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: $light-cyan-box;
+
+  &__header {
+    margin: 0 auto 18px;
+    color: #fff;
     font-family: "second-font", Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+  }
+
+  &__paragraph {
+    color: $light-gray-font;
+    margin: 5px auto;
+    font-family: "second-font", Arial, Helvetica, sans-serif;
+    font-size: 14px;
   }
 }
