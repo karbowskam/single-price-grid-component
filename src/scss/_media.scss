@@ -76,3 +76,67 @@
     }
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .grid {
+    width: 1000px;
+    grid-template-rows: 340px 400px;
+  }
+
+  .box {
+    padding: 55px 45px;
+  }
+
+  .first-box {
+    &__header {
+      margin-bottom: 45px;
+      font-size: 34px;
+      letter-spacing: 0.8px;
+    }
+
+    &__paragraph-yellow {
+      font-size: 26px;
+      margin: 15px 0 25px 0;
+    }
+
+    &__paragraph-gray {
+      font-size: 25px;
+    }
+  }
+
+  .second-box {
+    &__header {
+      font-size: 27px;
+    }
+
+    &__paragraph {
+      font-size: 25px;
+
+      &--bold {
+        font-size: 44px;
+      }
+
+      &--transparent {
+        width: 75%;
+        margin-top: 10px;
+      }
+    }
+
+    &__button {
+      margin-top: 63px;
+      height: 65px;
+      font-size: 22px;
+    }
+  }
+
+  .third-box {
+    &__header {
+      font-size: 27px;
+      margin-bottom: 31px;
+    }
+
+    &__paragraph {
+      font-size: 22px;
+    }
+  }
+}
