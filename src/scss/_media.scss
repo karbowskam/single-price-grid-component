@@ -3,6 +3,10 @@
     width: 530px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 180px 210px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .box {
