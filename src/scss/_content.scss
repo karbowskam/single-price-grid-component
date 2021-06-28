@@ -5,6 +5,7 @@
 
 .grid {
   width: 325px;
+  margin: 10% auto;
   display: grid;
   grid-template-columns: minmax(0, 325px);
   grid-template-rows: 270px 235px 250px;
