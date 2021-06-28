@@ -61,6 +61,10 @@
       font-family: "main-font", Arial, Helvetica, sans-serif;
     }
 
+    &--transparent {
+      float: right;
+      width: 80%;
+      padding: 8px;
       color: $light-gray-font;
     }
   }
